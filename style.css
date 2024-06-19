@@ -185,11 +185,11 @@ video {
 }
 
 .grid-container{
-    margin: -20px;
+    /* margin: -20px;
     margin-left: -53px;
-    margin-right: -53px;
+    margin-right: -53px; */
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
 }
 
 .grid-item {
