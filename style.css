@@ -189,7 +189,7 @@ video {
     margin-left: -53px;
     margin-right: -53px;
     display: grid;
-    grid-template-columns: 565px auto;
+    grid-template-columns: auto auto;
 }
 
 .grid-item {
