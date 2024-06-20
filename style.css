@@ -13,30 +13,29 @@ body {
     padding-left: 140px;
     padding-bottom: 10px;
     padding-top: 30px;
-    width: 100%;
     color: darkgray;
     font-size: 30px;
 }
 
 #role {
     position: relative;
-    left: 200px;
-    bottom: 120px;
+    left: 250px;
+    bottom: 150px;
     font-weight: 100;
     color: whitesmoke;
 }
 #name {
     position: relative;
-    bottom: 180px;
-    left: 200px;
+    bottom: 220px;
+    left: 250px;
     font-weight: 600;
     color: whitesmoke;
     font-size: 40px;
 }
 
 #me {
-    height: 200px;
-    width: 180px;
+    height: 230px;
+    width: 200px;
     border-radius: 20px;
 }
 
@@ -45,20 +44,27 @@ p{
 }
 
 .icons {
-    height: 50px;
+    height: 30px;
     position:relative;
-    left: 1200px;
-    bottom: 100px;
-    width: 50px;
+    left: 280px;
+    bottom: 70px;
+    width: 30px;
+    
 }
 
 .icon-links {
-    
+    position:relative;
+    right: 30px;
     display: inline;
 }
 
 h4,h3 {
     font-weight: 100;
+    
+}
+
+#resume {
+    color: lightgreen;
 }
 
 .body-desc {
@@ -159,24 +165,7 @@ h4,h3 {
     font-size: 20px;
     display: block;
     text-align: center;
-}
-
-button {
-    position: relative;
-    left: -200px;
-    padding: 10px;
-    bottom: -40px;
-    border-radius: 8px;
-    background-color: royalblue;
-    color: whitesmoke;
-    margin-right: 30px;
-    
-}
-
-.bttn-2 {
-    position:relative;
-    left: 50px;
-    bottom: -40px;
+    color: royalblue;
 }
 
 video {
@@ -207,7 +196,7 @@ video {
 
 a {
     text-decoration: none;
-    color: lightgreen;
+    color: royalblue;
 }
 
 progress {
