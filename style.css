@@ -98,6 +98,7 @@ h4,h3 {
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;
+    padding-top: 20px;
     margin-top: 30px;
     margin-left: 70px;
     margin-right: 130px;
@@ -268,4 +269,17 @@ progress[value] {
 
 #center {
     text-align: center;
+}
+
+#leetcode {
+    width: 200px;
+    height: 120px;
+    border-radius: 8px;
+}
+
+.leetcode {
+    position: relative;
+    right: 370px;
+    top: 60px;
+    
 }
