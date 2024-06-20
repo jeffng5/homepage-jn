@@ -53,7 +53,7 @@ p{
 }
 
 .icon-links {
-    text-align: right;
+    
     display: inline;
 }
 
@@ -203,4 +203,9 @@ video {
 .grid-item:hover {
     opacity: .8;
     background-color: lightgray;
+}
+
+a {
+    text-decoration: none;
+    color: lightgreen;
 }
