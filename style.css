@@ -278,7 +278,7 @@ progress[value] {
 }
 
 .leetcode {
-    border-radius: 8px;
+    border-radius: 12px;
     border: 1px solid rgb(251, 233, 208);
     background-color: rgb(251, 233, 208);
     padding-left: 105px;
