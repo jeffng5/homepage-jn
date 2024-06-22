@@ -291,3 +291,10 @@ progress[value] {
     margin-top: 40px;
 
 }
+
+#college {
+    position: relative;
+    bottom: 220px;
+    left: 750px;
+    color: whitesmoke;
+}
