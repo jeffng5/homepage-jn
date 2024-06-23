@@ -191,6 +191,8 @@ video {
     margin-right: -53px; */
     display: grid;
     grid-template-columns: 50% 50%;
+    width:fit-content;
+
 }
 
 .grid-item {
@@ -198,7 +200,7 @@ video {
     padding: 15px;
     text-align: center;
     opacity: 1;
-
+   
 }
 
 .grid-item:hover {
