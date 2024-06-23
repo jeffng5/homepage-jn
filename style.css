@@ -94,7 +94,7 @@ h4,h3, h2 {
 .bio {
     border-radius: 12px;
     border: 1px rgb(251, 233, 208) solid;
-    width: 25%;
+    width: fit-content;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;
@@ -223,7 +223,7 @@ progress[value] {
     -moz-appearance: none;
     appearance: none;
     border: none;
-    width: 450px;
+    width: 300px;
     margin-top: -20px;
     padding: -10px;
    
@@ -260,11 +260,12 @@ progress[value] {
 }
 
 #skills {
+    width: fit-content;
     font-size: 20px;
     margin-bottom: -25px;
     background-color: rgb(251, 233, 208);
     border-color: rgb(251, 233, 208);
-    color: rgb(36,72,85)
+    color: rgb(36,72,85);
 }
 
 #center {
@@ -288,6 +289,7 @@ progress[value] {
     position: relative;
     left: -32px;
     top: 20px;
+    width: fit-content;
     margin-top: 40px;
 
 }
