@@ -14,10 +14,10 @@ body {
     padding-left: 140px;
     padding-bottom: -10px;
     padding-top: 30px;
-    padding-right: 260px;
+    padding-right: 140px;
     color: darkgray;
     font-size: 30px;
-    width:2000px;
+    width:100%;
 }
 
 #role {
