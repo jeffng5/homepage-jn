@@ -285,7 +285,7 @@ progress[value] {
     border: 1px solid rgb(251, 233, 208);
     background-color: rgb(251, 233, 208);
     padding-left: 105px;
-    padding-right: 105px;
+    padding-right: 130px;
     padding-bottom: 30px;
     padding-top: 10px;
     position: relative;
@@ -299,6 +299,6 @@ progress[value] {
 #college {
     position: relative;
     bottom: 220px;
-    left: 750px;
+    left: 880px;
     color: whitesmoke;
 }
