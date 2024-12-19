@@ -353,7 +353,7 @@ progress[value] {
     color: royalblue;
 }
 
-@media(max-width:600px) {
+@media(max-width:500px) {
     .sidebar {
         display: none
     }
