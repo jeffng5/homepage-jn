@@ -433,12 +433,12 @@ progress[value] {
     }
 
     .body-desc {
+        margin-top: -150px;
         margin-left: 20px;
     }
 
     #box {
         margin-left: 20px;
-
     }
 
     .grid-container {
