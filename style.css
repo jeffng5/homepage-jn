@@ -370,7 +370,6 @@ progress[value] {
         flex-wrap: wrap;
         display: block;
         padding-top: 80px;
-        width: 700px;
     }
     #me {
         margin-left: -90px;
@@ -522,7 +521,6 @@ progress[value] {
     .align {
         display: flex;
         flex-direction: column;
-        width: 740px;
         
     }
     .img {
