@@ -374,6 +374,7 @@ progress[value] {
         font-family: 'Trebuchet MS';
         background-color: rgb(36,72,85);
     }
+
     #me {
         margin-left: -90px;
         height: 150px;
@@ -421,7 +422,7 @@ progress[value] {
     .align {
         display: flex;
         flex-direction: column;
-        margin-top: -150px;
+        margin-top: 50px;
     }
 
     .img {
@@ -435,7 +436,7 @@ progress[value] {
     }
 
     .body-desc {
-        margin-top: -250px;
+        margin-top: 0px;
         margin-left: 20px;
     }
 
