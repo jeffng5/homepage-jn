@@ -390,9 +390,8 @@ progress[value] {
         display: flex;
         flex-direction: column;
         padding-top: 30px;
-        background-color: rgb(36,72,85);
-    
     }
+    
     .icons {
         width: 35px;
         height: 35px;
