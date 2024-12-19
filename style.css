@@ -353,7 +353,101 @@ progress[value] {
     color: royalblue;
 }
 
-@media(max-width:500px) {
+@media only screen and (min-device-width : 320px ) and (max-device-width: 480px) {
+    .sidebar {
+        display: none
+    }
+
+    .intro {
+        flex-wrap: wrap;
+        display: block;
+        padding-top: 80px;
+    }
+    #me {
+        margin-left: -90px;
+        height: 150px;
+        width: 150px;
+        margin-top: 0px;
+    }
+
+    .icon-links {
+        display: inline;
+        margin-left: 300px;
+        position: relative;
+        bottom: 205px;
+        right: 83px;
+    }
+
+    .name {
+        position: relative;
+        bottom: 200px;
+        left: 10px;
+
+    }
+
+    #position {
+        margin-left: 333px;
+        margin-top: -279px;
+        font-size: 25px;
+        padding-bottom: 80px;
+    }
+
+    .projects {
+        width: fit-content;
+        columns: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .align {
+        display: flex;
+        flex-direction: column;
+        width: 740px;
+        
+    }
+    .img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .video {
+        width: 80px;
+        height: 80px;
+    }
+
+    .body-desc {
+        margin-left: 20px;
+    }
+
+    #box {
+        margin-left: 20px;
+
+    }
+
+    .grid-container {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .grid-item {
+    padding-left: 30px;
+    padding-right: 30px;
+    border : 1px solid rgb(144, 174, 173);
+    text-align: center;
+    opacity: 1;
+    }
+    #content, 
+    #progress2 {
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+}
+
+@media (max-width: 480px) {
     .sidebar {
         display: none
     }
