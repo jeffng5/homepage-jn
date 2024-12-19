@@ -463,7 +463,7 @@ progress[value] {
 }
 }
 
-@media(max-width:670px) {
+/* @media(max-width:670px) {
     .sidebar {
         display: none
     }
@@ -481,7 +481,6 @@ progress[value] {
     }
 
     .icon-links {
-        display: inline !important; 
         margin-left: 300px !important;
         position: relative !important;
         bottom: 105px !important;
@@ -563,4 +562,4 @@ progress[value] {
         padding-top: 20px;
         padding-bottom: 20px;
 }
-}
+} */
