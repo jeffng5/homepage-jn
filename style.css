@@ -393,6 +393,7 @@ progress[value] {
         width: 35px;
         height: 35px;
         border-radius: 12px;
+        padding-bottom: 30px;
     }
     .name {
         position: relative;
