@@ -447,7 +447,7 @@ progress[value] {
 }
 }
 
-@media(max-width:500px) {
+@media(max-width:670px) {
     .sidebar {
         display: none
     }
