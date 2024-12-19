@@ -371,6 +371,8 @@ progress[value] {
         flex-wrap: wrap;
         display: block;
         padding-top: 80px;
+        font-family: 'Trebuchet MS';
+        background-color: rgb(36,72,85);
     }
     #me {
         margin-left: -90px;
