@@ -379,18 +379,17 @@ progress[value] {
     }
 
     .icon-links {
-        display: inline !important;
         margin-left: 300px !important;
         position: relative !important;
-        bottom: 120px !important;
-        right: 83px !important; 
+        bottom: 400px !important;
+        left: 353px !important;
         display: flex;
         flex-direction: column;
     
     }
     .icons {
-        width: 45px;
-        height: 45px;
+        width: 35px;
+        height: 35px;
         border-radius: 12px;
     }
     .name {
@@ -463,103 +462,21 @@ progress[value] {
 }
 }
 
-/* @media(max-width:670px) {
-    .sidebar {
-        display: none
-    }
-
-    .intro {
-        flex-wrap: wrap;
-        display: block;
-        padding-top: 80px;
-    }
-    #me {
-        margin-left: -90px;
-        height: 150px;
-        width: 150px;
-        margin-top: 0px;
-    }
-
+@media(max-width:670px) { 
     .icon-links {
         margin-left: 300px !important;
         position: relative !important;
-        bottom: 105px !important;
-        left: 153px !important;
+        bottom: 400px !important;
+        left: 353px !important;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     
     }
 
     .icons {
-        width: 38px;
-        height: 38px;
+        width: 30px;
+        height: 30px;
         border-radius: 12px;
     }
 
-    .name {
-        position: relative;
-        bottom: 200px;
-        left: 10px;
-
-    }
-
-    #position {
-        margin-left: 333px;
-        margin-top: -279px;
-        font-size: 25px;
-        padding-bottom: 80px;
-    }
-
-    .projects {
-        width: fit-content;
-        columns: 200px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .align {
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .img {
-        width: 80px;
-        height: 80px;
-    }
-
-    .video {
-        width: 80px;
-        height: 80px;
-    }
-
-    .body-desc {
-        margin-left: 20px;
-    }
-
-    #box {
-        margin-left: 20px;
-
-    }
-
-    .grid-container {
-        width: 400px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin: 20px;
-    }
-
-    .grid-item {
-    padding-left: 30px;
-    padding-right: 30px;
-    border : 1px solid rgb(144, 174, 173);
-    text-align: center;
-    opacity: 1;
-    }
-    #content, 
-    #progress2 {
-        font-size: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
 }
-} */
