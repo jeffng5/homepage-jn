@@ -422,6 +422,7 @@ progress[value] {
     .align {
         display: flex;
         flex-direction: column;
+        margin-top: -20px;
     }
 
     .img {
@@ -435,7 +436,7 @@ progress[value] {
     }
 
     .body-desc {
-        margin-top: 0px;
+        margin-top: -20px;
         margin-left: 20px;
     }
 
