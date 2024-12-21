@@ -375,6 +375,11 @@ progress[value] {
         background-color: rgb(36,72,85);
     }
 
+    #textbox {
+        background-color: rgb(36,72,85);
+        color: rgb(36,72,85);
+    }
+
     #me {
         margin-left: -90px;
         height: 150px;
@@ -391,7 +396,7 @@ progress[value] {
         flex-direction: column;
         padding-top: 30px;
     }
-    
+
     .icons {
         width: 35px;
         height: 35px;
@@ -410,6 +415,7 @@ progress[value] {
         margin-top: -279px;
         font-size: 25px;
         padding-bottom: 80px;
+        flex-wrap: nowrap;
     }
 
     .projects {
@@ -417,12 +423,13 @@ progress[value] {
         columns: 200px;
         display: flex;
         flex-direction: column;
+
     }
 
     .align {
         display: flex;
         flex-direction: column;
-        margin-top: -20px;
+        margin-top: -40px;
     }
 
     .img {
@@ -436,7 +443,7 @@ progress[value] {
     }
 
     .body-desc {
-        margin-top: -20px;
+        margin-top: -40px;
         margin-left: 20px;
     }
 
@@ -449,12 +456,14 @@ progress[value] {
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin: 20px;
+       
     }
 
     .grid-item {
     padding-left: 30px;
     padding-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
     border : 1px solid rgb(144, 174, 173);
     text-align: center;
     opacity: 1;
