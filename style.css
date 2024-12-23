@@ -461,6 +461,7 @@ progress[value] {
 
     .body-desc {
         margin-left: 20px;
+        width: 430px;
     }
 
     #box {
