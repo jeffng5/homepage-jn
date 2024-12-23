@@ -468,7 +468,7 @@ progress[value] {
     }
 
     .grid-container {
-        width: 400px;
+        width: 450px;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -489,7 +489,16 @@ progress[value] {
         font-size: 20px;
         padding-top: 20px;
         padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
 }
+
+    .link-to-proj {
+        display: flex;
+        margin-left: 20px;
+        justify-content: center;
+    }
+
 }
 
 @media(max-width:670px) { 
